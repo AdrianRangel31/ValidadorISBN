@@ -10,8 +10,8 @@ El módulo `isbn.py` provee 4 funciones públicas:
 
 ## Decisiones y Supuestos
 
-**Caracteres:** Solo se aceptan dígitos, espacios, guiones y la 'X' (mayúscula) al final de un ISBN-10[cite: 47]. [cite_start]Cualquier otro caracter (incluyendo 'x' minúscula o prefijos como "ISBN:") causará un `ValueError` durante la normalización[cite: 46].
-* **Logger:** El módulo es puramente funcional. [cite_start]Se añadió un `logger` opcional a `detect_isbn` únicamente para cumplir con el requisito académico de demostrar el uso de *mocks*[cite: 108].
+**Caracteres:** Solo se aceptan dígitos, espacios, guiones y la 'X' (mayúscula) al final de un ISBN-10. Cualquier otro caracter (incluyendo 'x' minúscula o prefijos como "ISBN:") causará un `ValueError` durante la normalización.
+* **Logger:** El módulo es puramente funcional. Se añadió un `logger` opcional a `detect_isbn` únicamente para cumplir con el requisito académico de demostrar el uso de *mocks*.
 
 ## Cómo Ejecutar Pruebas y Cobertura
 
