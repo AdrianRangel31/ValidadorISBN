@@ -1,0 +1,9 @@
+
+{
+  "coverage_lines": 96.0,
+  "coverage_branches": 94.4,
+  "tests_total": 26,
+  "tests_passed": 26,
+  "ci_status": "passed",
+  "properties_implemented": 2
+}
